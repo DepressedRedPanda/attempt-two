@@ -57,3 +57,8 @@ See `docs/BLUEPRINT_BUILD.md` for exact node/logic instructions, `docs/CREATIVE_
 ## Why no C++?
 
 Heavy Mettle is designed around Epic's existing Blueprint Combat template. The build scripts use Python **only in Unreal Editor** to automate art and content assembly; packaged gameplay uses Blueprints, not runtime Python. That avoids a C++ toolchain as the first launch obstacle, but a functioning UE5 editor is still required to create the actual playable assets.
+
+
+## Assets you already own in Epic Games Launcher
+
+The user provided a screenshot of their Fab/Unreal Library showing **Free Animation Library**, **FREE Sword + Animation**, **Free Fantasy Weapon Sample**, **Easy Crosshair**, **Ultra Components – Inventory**, **RPG/Soulslike Stats System**, **Good SKY**, **Medieval Dungeon**, and other sample packs. See **[docs/OWNED_LIBRARY_ASSET_PLAN.md](docs/OWNED_LIBRARY_ASSET_PLAN.md)** for vetted links, order, and compatibility/redistribution caveats. The screenshot shows Unreal 5.5.4 installed, but the existing project target remains UE5.8.3 because the ready-made Combat template is available in 5.6+. Verify exact Fab Supported Engine Versions before any import. Running `Scripts/audit_imported_assets.py` inside your local Unreal project writes a report of likely imported assets at `Saved/HeavyMettleImportAudit.csv`—it does not download or wire gameplay. **No third-party asset binaries have been imported by ChatGPT.**
