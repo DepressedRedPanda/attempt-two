@@ -4,3 +4,7 @@ Engine: Unreal 5.8.3. Genre: Blueprint-first solo third-person RPG/shooter, alie
 
 ## Owned library integration
 See docs/OWNED_LIBRARY_ASSET_PLAN.md and GitHub issues #7-8. The screenshots show Epic Launcher library, not an installed Unreal HeavyMettle Content folder. User currently shows engine 5.5.4 while this repo targets 5.8.3 with the 5.6+ Combat template. Evaluate compatibility in a temporary 5.8.3 project; prefer Free Animation Library, FREE Sword + Animation, Easy Crosshair, Free Firearm Sounds and then Ultra Components for ammo+inventory if no collision. Respect license and source redistribution limitations; do not assume asset source can be copied to this public GitHub repository.
+
+
+## Platform mandate
+Lead platform PS5; first development environment Windows UE5.8. For controller-first Enhanced Input, platform-neutral save/menu architecture, Sony/Epic access gates and Xbox/Nintendo future-port plan, follow docs/START_HERE_PS5_MULTIPLATFORM.md. Console packaging requires official developer authorization, platform SDK and source-built Unreal; all gameplay systems can still be Blueprint-first. No console builds or runtime footage have been verified yet.
