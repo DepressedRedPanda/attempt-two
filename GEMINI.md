@@ -1,2 +1,6 @@
 # HEAVY METTLE — instructions for Gemini
 Engine: Unreal 5.8.3. Genre: Blueprint-first solo third-person RPG/shooter, alien frontier spaghetti western. User wants editable Blueprints and no C++ compile problems. Repo is not yet a packaged game; use a real Unreal Editor to generate and test binary assets. Work from data/balance.json, docs/BLUEPRINT_BUILD.md, and docs/CREATIVE_DIRECTION.md. Start with Epic Third Person Combat variant; use UE primitives and rights-cleared free Fab art. Prefer small individually runnable branches and a 15-minute playable quest. Never assume you can reuse marketplace source content in GitHub without license verification. Verify graph compilation and Play in Editor before claiming feature implementation.
+
+
+## Owned library integration
+See docs/OWNED_LIBRARY_ASSET_PLAN.md and GitHub issues #7-8. The screenshots show Epic Launcher library, not an installed Unreal HeavyMettle Content folder. User currently shows engine 5.5.4 while this repo targets 5.8.3 with the 5.6+ Combat template. Evaluate compatibility in a temporary 5.8.3 project; prefer Free Animation Library, FREE Sword + Animation, Easy Crosshair, Free Firearm Sounds and then Ultra Components for ammo+inventory if no collision. Respect license and source redistribution limitations; do not assume asset source can be copied to this public GitHub repository.
