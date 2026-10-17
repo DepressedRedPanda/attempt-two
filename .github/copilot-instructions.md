@@ -8,3 +8,6 @@
 - Use data/balance.json as canonical tuning reference and update it when implementing gameplay.
 - Commit generated .uasset/.umap under Git LFS; cannot edit or run them purely from GitHub text.
 - State what was actually compiled/tested in Unreal Editor. Favor short testable PRs, not unverified bulk changes.
+
+
+Owned Fab packs from user's launcher screenshot: see docs/OWNED_LIBRARY_ASSET_PLAN.md and issues #7 and #8. Use already-owned Free Animation Library for mantling and sword/crosshair/sound packs after 5.8.3 checks. Ultra Components has inventory+shooter components; do NOT combine overlapping inventory/health frameworks. Installed UE visible in screenshot is 5.5.4, which lacks the Combat variant; existing repo requires 5.8.3 unless intentionally redesigned. Never assert source assets are in repo; compile & PIE-test them locally, and check license before adding any third-party .uasset to this public repo.
