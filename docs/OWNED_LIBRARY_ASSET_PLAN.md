@@ -55,7 +55,7 @@ The user demonstrably **owns or has listed** the assets in the Epic Games Launch
 
 Before committing a binary asset:
 - Confirm project target UE 5.8.3 and Fab listed version availability.
-- Confirm source asset license and Fab NoAI restrictions where relevant; avoid sending raw prohibited assets to external AI services. Do not interpret "owned" as permission to publicly redistribute asset source.
+- Confirm source asset license and Fab NoAI restrictions where relevant; avoid sending raw prohibited assets to external AI services. As of the listing check, **Free Animation Library** and **Easy Crosshair – Free Pack** both display 'Allows usage with AI: No' on Fab; review the applicable license before supplying source files to automated coding agents. This is not a claim that ordinary UE game development with those assets is prohibited. Do not interpret "owned" as permission to publicly redistribute asset source.
 - Keep retarget chain reproducible. Do not embed a locked binary plugin into a public repo.
 - Check gameplay while moving/aiming and when AI attacks. Avoid two components controlling the same character attributes or input events.
 
