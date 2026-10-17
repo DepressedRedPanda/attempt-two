@@ -11,6 +11,10 @@ Overview
 
 Repository: https://github.com/DepressedRedPanda/attempt-two
 
+## Start here (Windows / Unreal Engine 5.8)
+
+**Brand new to Unreal?** Follow [the click-by-click first playable & Windows packaging guide](docs/START_HERE_WINDOWS_58.md) before importing marketplace assets or trying to open this repository's text-only `.uproject`. This guide uses Epic's locally generated Third Person Combat template and our map-generation scripts.
+
 ## Getting started: navigate and fight in a graybox
 
 You must have **Unreal Engine 5.8.3** installed on a Windows computer. Epic's official **Third Person > Combat** variant supplies the *binary Blueprint* player, attack combos, health, and enemy AI assets that GitHub text files cannot manufacture on their own.
