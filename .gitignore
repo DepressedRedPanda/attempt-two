@@ -1,0 +1,16 @@
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vs/
+.vscode/
+.idea/
+*.sln
+*.VC.db
+*.VC.opendb
+*.suo
+*.user
+*.tmp
+__pycache__/
+.DS_Store
+Thumbs.db
