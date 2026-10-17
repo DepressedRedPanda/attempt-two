@@ -1,0 +1,10 @@
+Name,DisplayName,MaxStack,Description
+Scrap,Scrap Metal,99,Salvage from wrecks and broken machines
+Powder,Black Powder,99,Bought in town or looted from bandits
+Herbs,Dustbloom,99,Medicinal desert flower
+Wire,Copper Wire,99,Pulled from old relay towers
+Ammo,Pistol Rounds,120,Ammunition for the revolver
+Medkit,Poultice Kit,5,Heals 40% of max health
+Grenade,Can Grenade,5,Thrown explosive
+BatteryCell,Battery Cell,3,Restores 50% battery
+Credits,Credits,99999,Frontier currency

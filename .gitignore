@@ -1,16 +1,19 @@
+# Unreal generated folders
 Binaries/
 DerivedDataCache/
 Intermediate/
 Saved/
 .vs/
-.vscode/
 .idea/
 *.sln
 *.VC.db
-*.VC.opendb
+*.opensdf
+*.sdf
 *.suo
-*.user
-*.tmp
+*.xcworkspace
+# Python
 __pycache__/
+*.pyc
+# OS
 .DS_Store
 Thumbs.db

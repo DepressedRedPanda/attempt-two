@@ -1,3 +1,3 @@
-# HEAVY METTLE — instructions for Claude Code
-This repository belongs to a player building a Blueprint-first, editable Unreal Engine 5.8.3 third-person space western. Do not bring back Hollowreach/VeilOfAsh C++ modules. The current GitHub text cannot create binary .uassets, so separate researched/planned features from tested-in-Unreal features.
-First task when connected to a real editor: open the Epic Third Person Combat template, run Scripts/build_dustfall.py, test Play in Editor and commit generated .umap/.uasset files under Git LFS. Implement short-distance lock-on (<=350 cm), free-aim handgun, weapon body sockets, simple melee light/heavy combo and guard/parry; keep each change individually playable. Maintain a 'WORKS IN PIE' checklist in the README and never declare an untested feature done. Coordinate via Issues/PRs and leave only Blueprint assets/runtime logic in Content (editor Python tools are acceptable; no gameplay C++). Review data/balance.json and docs/CREATIVE_DIRECTION.md.
+# Instructions
+
+Follow the shared project rules in [AGENTS.md](AGENTS.md). Read docs/GDD.md for the game design and docs/01-Setup.md for the project structure.

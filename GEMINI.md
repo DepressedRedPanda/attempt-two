@@ -1,2 +1,3 @@
-# HEAVY METTLE — instructions for Gemini
-Engine: Unreal 5.8.3. Genre: Blueprint-first solo third-person RPG/shooter, alien frontier spaghetti western. User wants editable Blueprints and no C++ compile problems. Repo is not yet a packaged game; use a real Unreal Editor to generate and test binary assets. Work from data/balance.json, docs/BLUEPRINT_BUILD.md, and docs/CREATIVE_DIRECTION.md. Start with Epic Third Person Combat variant; use UE primitives and rights-cleared free Fab art. Prefer small individually runnable branches and a 15-minute playable quest. Never assume you can reuse marketplace source content in GitHub without license verification. Verify graph compilation and Play in Editor before claiming feature implementation.
+# Instructions
+
+Follow the shared project rules in [AGENTS.md](AGENTS.md). Read docs/GDD.md for the game design and docs/01-Setup.md for the project structure.

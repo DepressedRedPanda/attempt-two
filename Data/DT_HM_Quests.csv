@@ -1,0 +1,6 @@
+Name,Title,Giver,Step1,Step2,Step3,Step4,XPReward,CreditReward,Description
+Q01_Crater,Fallen Star,None,Climb out of the crater,Follow the smoke to Dustwell,Talk to Marshal Oyeku,,100,0,You wake in a smoking crater with no memory. Find people.
+Q02_Smith,Mettle and Powder,Smith Hollis Varn,Collect 4 Scrap,Collect 2 Black Powder,Craft Pistol Rounds at the bench,Return to Hollis,150,20,The smith teaches you to make your own ammunition.
+Q03_Wells,Dry Wells,Elder Maudra,Find the thieves at the old pump house,Defeat the bandits,Recover the condenser core,Return the core to Maudra,300,60,Someone is stealing the condenser cores that pull water from the air.
+Q04_Company,Company Business,Agent Pell (Marrow Extraction Co.),Track the stolen ore cart,Reach the canyon camp,Decide: return the ore or let the miners keep it,Report back,400,120,"Marrow Extraction wants its ore back. The ""bandits"" might have a reason."
+Q05_Rustjaw,Bounty: Rustjaw Kade,Marshal Oyeku,Climb to the mesa camp,Clear the lookouts,Defeat Rustjaw Kade,Collect the bounty,800,300,The Rustjaw Gang is behind the thefts. Their lieutenant hides on a high mesa.
