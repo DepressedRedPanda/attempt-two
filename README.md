@@ -36,3 +36,7 @@ Next suggestions (pick any):
 - I can prepare an asset sourcing list (free Marketplace + Quixel) and a recommended starting asset pack.
 
 Tell me which piece you'd like me to do next and I’ll add it to the repo and describe how to use it.
+
+## Practical repository limitation
+
+This checkout contains a text-only **HeavyMettle.uproject** shell, not Epic's proprietary binary Third Person Combat template assets. If you double-click the .uproject *before creating/copying the Third Person Combat template Content and game mode*, you will not have a usable combat character. The recommended starting point is to generate the Combat template locally, copy these scripts into that local project, and commit the resulting project files/assets once the Unreal Editor has successfully created and tested them. Local Python scripts only run in the Unreal Editor; they are not scripts that run inside the packaged game. No Unreal Engine installation is available in this chat environment to test PIE or package Windows binaries.
