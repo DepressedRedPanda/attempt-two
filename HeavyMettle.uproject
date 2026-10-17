@@ -1,11 +1,35 @@
 {
-  "FileVersion": 3,
-  "EngineAssociation": "5.8",
-  "Category": "Games",
-  "Description": "Heavy Mettle: Blueprint-first sci-fi frontier action RPG",
-  "Modules": [],
-  "Plugins": [
-    { "Name": "PythonScriptPlugin", "Enabled": true },
-    { "Name": "EditorScriptingUtilities", "Enabled": true }
-  ]
+	"FileVersion": 3,
+	"EngineAssociation": "5.8",
+	"Category": "Games",
+	"Description": "Heavy Mettle - a space-western third-person action game. Blueprint-only project.",
+	"Plugins": [
+		{
+			"Name": "EnhancedInput",
+			"Enabled": true
+		},
+		{
+			"Name": "MotionWarping",
+			"Enabled": true
+		},
+		{
+			"Name": "ChaosCloth",
+			"Enabled": true
+		},
+		{
+			"Name": "PythonScriptPlugin",
+			"Enabled": true
+		},
+		{
+			"Name": "EditorScriptingUtilities",
+			"Enabled": true
+		},
+		{
+			"Name": "ModelingToolsEditorMode",
+			"Enabled": true,
+			"TargetAllowList": [
+				"Editor"
+			]
+		}
+	]
 }

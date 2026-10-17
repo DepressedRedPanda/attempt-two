@@ -1,0 +1,10 @@
+Name,Sequence,DisplayName,DamageMultiplier,StaminaCost,BatteryCost,bKnockback,bLaunch,bAreaOfEffect,Description
+L,L,Slash,1.0,8,0,False,False,False,Quick horizontal slash
+LL,LL,Backslash,1.0,8,0,False,False,False,Return slash
+LLL,LLL,Tumbleweed,1.4,12,0,True,False,True,Spinning finisher that pushes everyone back
+LLH,LLH,High Noon,1.8,18,0,False,True,False,Rising uppercut that pops the target into the air
+LH,LH,Spur Thrust,1.6,16,0,True,False,False,Lunging thrust - breaks an enemy guard
+H,H,Overhead,1.8,18,0,False,False,False,Slow two-handed overhead chop
+HH,HH,Anvil Drop,2.4,25,10,True,False,True,Ground slam - costs a little battery
+HL,HL,Quick Draw,1.5,14,5,False,False,False,Sword slash flowing into a point-blank pistol shot
+PARRY,P,Riposte,2.5,0,0,True,False,False,Automatic counter after a successful parry

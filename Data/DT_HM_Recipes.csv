@@ -1,0 +1,5 @@
+Name,DisplayName,ResultAmount,ScrapCost,PowderCost,HerbsCost,WireCost,bNeedsBench,Description
+Ammo,Pistol Rounds,12,1,2,0,0,False,A dozen hand-packed rounds
+Medkit,Poultice Kit,1,0,0,3,1,False,Herbs bound with wire mesh - restores 40% health
+Grenade,Can Grenade,1,2,3,0,1,True,"Tin can, black powder, short fuse"
+BatteryCell,Battery Cell,1,1,0,0,2,True,Restores 50% battery
