@@ -11,7 +11,19 @@ Overview
 
 Repository: https://github.com/DepressedRedPanda/attempt-two
 
-## Start here (Windows / Unreal Engine 5.8)
+## Start here (Windows / Unreal Engine 5.5.4) — current path
+
+**Step 1:** follow [docs/START_HERE_UE55.md](docs/START_HERE_UE55.md) to walk around the Dustfall village in UE 5.5.4. Why 5.5.4 and other choices: [docs/DECISIONS.md](docs/DECISIONS.md).
+
+## Works in PIE (Play In Editor)
+
+Only tick a box after someone has actually pressed Play in Unreal and seen it work. Note the date and engine version.
+
+- [ ] UE 5.5.4 Third Person template plays (move / look / jump)
+- [ ] `build_dustfall.py` builds `L_Dustfall` with no red errors
+- [ ] Player walks Dustfall: town, buildings, raised platforms, Old Relay
+
+## Older guide (Unreal Engine 5.8, kept for reference)
 
 **Brand new to Unreal?** Follow [the click-by-click first playable & Windows packaging guide](docs/START_HERE_WINDOWS_58.md) before importing marketplace assets or trying to open this repository's text-only `.uproject`. This guide uses Epic's locally generated Third Person Combat template and our map-generation scripts.
 

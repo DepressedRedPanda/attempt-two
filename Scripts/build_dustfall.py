@@ -1,6 +1,8 @@
-"""Build a repeatable Heavy Mettle exploration graybox in Unreal Engine 5.8.
+"""Build a repeatable Heavy Mettle exploration graybox in Unreal Engine 5.
 
-Run from Tools > Execute Python Script in a Third Person *Combat* template project.
+Intended target (not yet run in Unreal): UE 5.5.4 plain Third Person Blueprint template (see docs/START_HERE_UE55.md).
+Also usable in a 5.6+ Third Person Combat-variant project.
+Run from Tools > Execute Python Script.
 Editor-only generator: NO runtime Python dependency. Produces Content/HeavyMettle/Maps/L_Dustfall.umap.
 It does not create executable combat/quest/crafting Blueprints.
 """
@@ -24,7 +26,7 @@ MESHES = {
     "sphere": unreal.load_asset("/Engine/BasicShapes/Sphere.Sphere"),
 }
 if not MESHES["cube"]:
-    raise RuntimeError("Built-in UE Cube mesh not found. Open the project inside Unreal 5.8.")
+    raise RuntimeError("Built-in UE Cube mesh not found. Open the project inside the Unreal Editor (5.5.4 or newer).")
 for folder in (ROOT, ROOT + "/Maps", MATERIALS):
     if not ASSETS.does_directory_exist(folder):
         ASSETS.make_directory(folder)
@@ -204,7 +206,7 @@ for k, xx in enumerate((-1970, -240, 1900)):
         primitive("MarketPole_" + str(k) + "_" + str(dx),
                   xx + dx, -600, 140, 26, 26, 260, "wood")
 
-# Uneven climbable/jumpable height tiers. Combat template can jump; formal climbing remains open.
+# Uneven climbable/jumpable height tiers. Template character can jump; formal climbing remains open.
 raised_platform("South_Overlook", -1800, -3000, 240)
 raised_platform("North_Scrapyard", 1900, 3050, 310)
 raised_platform("East_Patrol_Post", 5100, -1400, 400)
