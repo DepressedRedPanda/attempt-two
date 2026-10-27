@@ -27,11 +27,7 @@ Saved/
 # Logs
 *.log
 
-# UObject and uasset
-# NOTE: track uasset/umap with Git LFS instead of in plain git
-*.uasset
-*.umap
-
+# Unreal binary assets must be tracked via Git LFS, not ignored.
 # Unreal autosaves
 Autosaves/
 
