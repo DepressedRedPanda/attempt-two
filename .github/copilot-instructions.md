@@ -1,3 +1,5 @@
+> **Consolidation override (UE 5.8.4):** Read [AGENTS.md](../../AGENTS.md) and [docs/GAME_CONSOLIDATION.md](../../docs/GAME_CONSOLIDATION.md) first. Earlier 5.8.3, Combat-template, and standalone HeavyMettle instructions below are historical until verified against the actual local ManOfMettle project. Source repos are preserved; do not merge Hollowreach C++ into active runtime.
+
 # Copilot: Heavy Mettle
 - Unreal Engine 5.8.3, Blueprint-only runtime project. Avoid introducing C++ modules/build rules.
 - Base Epic Third Person **Combat** variant, not Lyra.
