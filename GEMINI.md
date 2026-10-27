@@ -1,3 +1,5 @@
+> **Consolidation override (UE 5.8.4):** Read [AGENTS.md](AGENTS.md) and [docs/GAME_CONSOLIDATION.md](docs/GAME_CONSOLIDATION.md) first. Earlier 5.8.3, Combat-template, and standalone HeavyMettle instructions below are historical until verified against the actual local ManOfMettle project. Source repos are preserved; do not merge Hollowreach C++ into active runtime.
+
 # HEAVY METTLE — instructions for Gemini
 Engine: Unreal 5.8.3. Genre: Blueprint-first solo third-person RPG/shooter, alien frontier spaghetti western. User wants editable Blueprints and no C++ compile problems. Repo is not yet a packaged game; use a real Unreal Editor to generate and test binary assets. Work from data/balance.json, docs/BLUEPRINT_BUILD.md, and docs/CREATIVE_DIRECTION.md. Start with Epic Third Person Combat variant; use UE primitives and rights-cleared free Fab art. Prefer small individually runnable branches and a 15-minute playable quest. Never assume you can reuse marketplace source content in GitHub without license verification. Verify graph compilation and Play in Editor before claiming feature implementation.
 
